@@ -9,5 +9,4 @@ import com.rajaram.landon.data.entity.Guest;
 public interface GuestRepository extends PagingAndSortingRepository<Guest, Long> {
 
 
-
 }

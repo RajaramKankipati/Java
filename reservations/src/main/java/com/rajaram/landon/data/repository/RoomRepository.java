@@ -7,7 +7,7 @@ import com.rajaram.landon.data.entity.Room;
 
 @Repository
 public interface RoomRepository extends CrudRepository<Room, Long> {
-	
-	Room findByNumber(String number);
+
+    Room findByNumber(String number);
 
 }

@@ -9,18 +9,18 @@ import javax.persistence.Table;
 import java.sql.Date;
 
 @Entity
-@Table(name="RESERVATION")
+@Table(name = "RESERVATION")
 public class Reservation {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name="RESERVATION_ID")
+    @Column(name = "RESERVATION_ID")
     private long id;
-    @Column(name="ROOM_ID")
+    @Column(name = "ROOM_ID")
     private long roomId;
-    @Column(name="GUEST_ID")
+    @Column(name = "GUEST_ID")
     private long guestId;
-    @Column(name="RES_DATE")
+    @Column(name = "RES_DATE")
     private Date date;
 
     public long getId() {

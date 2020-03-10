@@ -17,15 +17,17 @@ public class RoomController {
     @Autowired
     private RoomRepository repository;
 
-    @RequestMapping(value="/rooms", method= RequestMethod.GET)
-    List<Room> findAll(@RequestParam(required=false) String roomNumber){
-       List<Room> rooms = new ArrayList<>();
-        if(null==roomNumber){
+    @RequestMapping(value = "/rooms", method = RequestMethod.GET)
+    List<Room> findAll(@RequestParam(required = false) String roomNumber) {
+        List<Room> rooms = new ArrayList<>();
+        if (null == roomNumber) {
             Iterable<Room> results = this.repository.findAll();
-            results.forEach(room-> {rooms.add(room);});
-        }else{
+            results.forEach(room -> {
+                rooms.add(room);
+            });
+        } else {
             Room room = this.repository.findByNumber(roomNumber);
-            if(null!=room) {
+            if (null != room) {
                 rooms.add(room);
             }
         }
