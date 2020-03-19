@@ -23,8 +23,6 @@ class Dog extends Animal{
 
 }
 
-
-
 public class ConstructorExamples {
 
     public static void main(String args[]){
