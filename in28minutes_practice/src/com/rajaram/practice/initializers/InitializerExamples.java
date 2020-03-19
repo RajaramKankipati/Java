@@ -12,6 +12,7 @@ public class InitializerExamples {
 
     }
 
+    //Static Initializer
     static
     {
         System.out.println("Static Initializer");
