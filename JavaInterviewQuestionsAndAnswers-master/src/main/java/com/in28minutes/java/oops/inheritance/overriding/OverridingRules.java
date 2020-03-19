@@ -1,17 +1,26 @@
 package com.in28minutes.java.oops.inheritance.overriding;
 
-import java.io.FileNotFoundException;
+//import java.io.FileNotFoundException;
 
 public class OverridingRules {
+	
+	
+	public static void main(String args[]) {
+		
+		SuperClass obj = new SuperClass();
+		obj.publicMethod();
+		obj.protectedMethod();
+		
+	} 
+	
 }
 
 class SuperClass {
-	public void publicMethod() throws FileNotFoundException {
+	public void publicMethod() {
 
 	}
 
 	void protectedMethod() {
-
 	}
 }
 

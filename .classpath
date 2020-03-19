@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="in28minutes_practice/src"/>
+	<classpathentry kind="src" path="in28minutes/.mvn/wrapper"/>
+	<classpathentry kind="src" path="in28minutes/src/main/java"/>
+	<classpathentry kind="src" path="in28minutes/src/test/java"/>
+	<classpathentry kind="src" path="JavaInterviewQuestionsAndAnswers-master/src/main/java"/>
+	<classpathentry kind="src" path="JavaInterviewQuestionsAndAnswers-master/src/test/java"/>
+	<classpathentry kind="src" path="reservations/.mvn/wrapper"/>
+	<classpathentry kind="src" path="reservations/src/main/java"/>
+	<classpathentry kind="src" path="reservations/src/test/java"/>
+	<classpathentry kind="lib" path="reservations/bin/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="reservations/target/reservations-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="output" path="JavaInterviewQuestionsAndAnswers-master/target/classes"/>
+</classpath>

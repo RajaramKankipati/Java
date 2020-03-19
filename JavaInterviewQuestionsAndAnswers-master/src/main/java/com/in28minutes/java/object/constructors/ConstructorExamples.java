@@ -5,7 +5,7 @@ class Animal {
 
 	public Animal(String name) {
 		this.name = name;
-		System.out.println("Animal Constructor with name");
+		System.out.println("Animal Constructor with " + name);
 	}
 }
 
@@ -21,6 +21,6 @@ class Dog extends Animal {
 
 public class ConstructorExamples {
 	public static void main(String[] args) {
-		Dog dog = new Dog("Terry");
+		Dog dog = new Dog();
 	}
 }
